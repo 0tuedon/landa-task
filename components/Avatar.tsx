@@ -1,10 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-interface AvatarProps {
-  src?: string;
-}
-const Avatar = (props: AvatarProps) => {
+const Avatar = () => {
   return (
     <>
       <img

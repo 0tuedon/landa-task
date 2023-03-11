@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const Assessments = () => {
   const [populated, setPopulated] = useState(false);
   return (
-    <div className="text-red-200 flex flex-col p-[50px]">
+    <div className=" flex flex-col p-[50px]">
       <div className="flex space-x-4">
         <div className="bg-active_tab px-8 py-3  text-dark_200">
           <p>Question Bank</p>
