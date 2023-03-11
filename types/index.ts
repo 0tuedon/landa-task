@@ -38,6 +38,7 @@ export interface IModal extends DisclosureProps {
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   label?: string;
+  divClass?: string;
   leftIcon?: any;
   rightIcon?: any;
   textArea?: boolean;
