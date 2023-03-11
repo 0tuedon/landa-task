@@ -1,0 +1,6 @@
+/dist
+/coverage
+/node_modules
+next-env.d.ts
+yarn.lock
+yarn-error.log
