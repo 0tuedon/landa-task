@@ -15,6 +15,10 @@ module.exports = {
         border: "#E6E6E6",
         active_blue: "#004CCC",
         background_blue: "#DDE7F8",
+        active_tab:"#EEF3FC", 
+        text_blue:"#0D0630",
+        disabled_tab:"#959595",
+        dark_200:"#222222"
       },
     },
   },
