@@ -14,19 +14,19 @@ const PopulatedData = (props: IPopulatedData) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div className="p-5 border flex mt-11 max-w-full  flex-col overflow-x-auto border-border">
-      <div className="flex space-x-2 space-y-4 flex-wrap ">
+      <div className="flex space-x-2 items-center space-y-4 lg:space-y-0 flex-wrap ">
         <PrimarySelect
-          className="py-4 px-5"
+          className="py-4 px-5 "
           label="University of Lagos"
           options={[{ label: "University of Lagos", value: "" }]}
         />
         <PrimaryInput
           leftIcon={SearchIcon}
-          divClass="min-w-[530px] py-4 px-5"
+          divClass="min-w-[530px] py-4  px-5"
           placeholder="Search for Subject..."
         />
 
-        <PrimaryButton className="py-4 px-6" onClick={onOpen}>
+        <PrimaryButton className=" py-4 px-6" onClick={onOpen}>
           Add Subject
         </PrimaryButton>
       </div>
