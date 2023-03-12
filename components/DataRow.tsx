@@ -1,4 +1,5 @@
 import React from "react";
+import HamburgerIcon from "./Hamburger";
 
 interface ISubjectData {
   subject: string;
@@ -37,7 +38,9 @@ const DataRow = ({ data, ...props }: IDataRow) => {
       <td className="px-6 align-middle   text-sm whitespace-nowrap p-4">
         {data.failed}
       </td>
-      <td></td>
+      <td>
+        <HamburgerIcon className="cursor-pointer" />
+      </td>
     </tr>
   );
 };
