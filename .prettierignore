@@ -4,3 +4,5 @@
 next-env.d.ts
 yarn.lock
 yarn-error.log
+.next
+tailwind.config.js
