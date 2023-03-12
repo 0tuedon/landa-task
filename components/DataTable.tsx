@@ -4,7 +4,7 @@ import { allSubject } from "@/utils/allSubject";
 
 const DataTable = () => {
   return (
-    <table className="items-center mt-11 bg-transparent w-full  ">
+    <table className="items-center mt-11  bg-transparent w-full  ">
       <thead>
         <tr>
           <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle    py-3 text-sm    whitespace-nowrap font-semibold text-left">

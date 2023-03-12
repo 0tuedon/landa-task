@@ -18,7 +18,7 @@ const Assessments = () => {
       {!populated ? (
         <EmptyState setPopulated={setPopulated} />
       ) : (
-        <PopulatedData />
+        <PopulatedData setPopulated={setPopulated} />
       )}
     </div>
   );
